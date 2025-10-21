@@ -1,13 +1,12 @@
 // set your account sid here
-var accountSid = AC91b137bd8fa2cc8395a8f9b14571150c;
+var accountSid = "AC82c2886c2b7e3955e7bc46017456543e";
 
 
 var appConfig = {
-  // Uncomment the following lines to enable automatic log in
-  
-  /* sso: {
-    accountSid: AC595d7affd2fb2cdb37a528cb25e5d63f
-  } */
+  // SSO enabled - points to NSS Twilio account with new OKTA configuration
+  sso: {
+    accountSid: "AC82c2886c2b7e3955e7bc46017456543e"
+  },
   sdkOptions: {
     worker: {
       logLevel: "error"
